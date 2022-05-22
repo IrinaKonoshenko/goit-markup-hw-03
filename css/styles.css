@@ -1,0 +1,176 @@
+:root {
+  --accent-color: #2196f3;
+  --white-color: #fff;
+  --white-100-color: #f5f4fa;
+  --black-color: #000;
+  --opacity-link-color: rgba(255, 255, 255, 0.6);
+  --gray-color: #757575;
+  --base-color: #212121;
+  --additional-color: #2f303a;
+  --button-hover: #188ce8;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--base-color);
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.logo-color-black {
+  color: var(--black-color);
+}
+.logo-color-white {
+  color: var(--white-color);
+}
+.menu {
+  list-style-type: none;
+}
+.menu-link {
+  color: var(--base-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.menu-link:hover,
+.header-link:hover,
+.menu-link:focus,
+.header-link:focus,
+.current {
+  color: var(--accent-color);
+}
+.header-link {
+  color: var(--gray-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.header-contact {
+  list-style-type: none;
+}
+.tabs {
+  list-style-type: none;
+}
+.tab-name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  color: var(--base-color);
+  font-family: inherit;
+  background-color: var(--white-100-color);
+  cursor: pointer;
+}
+.tab-name:hover,
+.tab-name:focus,
+.tab-name-active {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+.projects {
+  list-style: none;
+}
+.project-link {
+  text-decoration: none;
+}
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--base-color);
+}
+.project-description {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--gray-color);
+}
+.footer {
+  background-color: var(--additional-color);
+}
+.footer-address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--white-color);
+}
+.footer-link {
+  color: var(--opacity-link-color);
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: var(--white-color);
+}
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+.hero-block {
+  background-color: var(--additional-color);
+}
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  font-family: inherit;
+  cursor: pointer;
+}
+.hero-button:hover {
+  background-color: var(--button-hover);
+}
+.advantages {
+  list-style-type: none;
+}
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--base-color);
+  text-transform: uppercase;
+}
+.advantages-description {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--gray-color);
+}
+.pages-images {
+  list-style-type: none;
+}
+.page-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--base-color);
+  text-align: center;
+}
+.dream {
+  background-color: var(--white-100-color);
+}
+.dream-blocks {
+  list-style-type: none;
+}
+.dream-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--base-color);
+}
+.dream-profession {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--gray-color);
+}
