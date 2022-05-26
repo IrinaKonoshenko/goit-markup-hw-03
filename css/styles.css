@@ -79,6 +79,15 @@ body {
 .current {
   color: var(--accent-color);
 }
+.social-list__img {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.social-list__item-link:hover .social-list__img,
+..social-list__item-link:focus .social-list__img {
+  fill: var(--accent-color);
+}
 .header-link {
   color: var(--gray-color);
   font-weight: 500;
@@ -212,7 +221,14 @@ body {
   margin-bottom: 30px;
 }
 .hero-block {
-  background-color: var(--additional-color);
+  background: rgba(47, 48, 58, 0.4);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("/images/Img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -271,6 +287,29 @@ body {
   margin: 0;
   letter-spacing: 0.03em;
 }
+
+.advantages-icons-list {
+  list-style-type: none;
+  display: flex;
+  margin: 0 -15px;
+  padding: 0;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+.advantages-icons-item {
+  width: 270px;
+  height: 120px;
+  margin: 0 15px;
+  background-color: var(--white-100-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.advantages-icons-link {
+  width: 70px;
+  height: 70px;
+}
 .pages-images {
   list-style-type: none;
   display: flex;
@@ -293,7 +332,26 @@ body {
 .dream {
   background-color: var(--white-100-color);
 }
-
+.social-list {
+  list-style-type: none;
+  display: flex;
+}
+.social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--accent-color);
+}
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: #fff;
+}
 .dream-blocks {
   list-style-type: none;
   margin: 0;
@@ -325,7 +383,19 @@ body {
   text-align: center;
   color: var(--gray-color);
   margin: 0;
+  margin-bottom: 16px;
 }
 .dream-content {
   padding: 30px 0;
+}
+.client-bloks{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.clients-item{
+  
 }
