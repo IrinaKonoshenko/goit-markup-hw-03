@@ -10,6 +10,7 @@
   --button-hover: #188ce8;
   --header-border: #ececec;
   --project-border-color: #eeeeee;
+  --icon-color: #AFB1B8;
 }
 * {
   box-sizing: border-box;
@@ -79,13 +80,11 @@ body {
 .current {
   color: var(--accent-color);
 }
-.social-list__img {
-  width: 16px;
-  height: 12px;
+.social-list__icon {
   margin-right: 10px;
 }
-.social-list__item-link:hover .social-list__img,
-..social-list__item-link:focus .social-list__img {
+.header-link:hover .social-list__icon,
+.header-link:focus .social-list__icon {
   fill: var(--accent-color);
 }
 .header-link {
@@ -96,6 +95,8 @@ body {
   text-decoration: none;
   display: block;
   padding: 32px 0;
+  display: flex;
+  align-items: center;
 }
 .header-contact {
   flex-grow: 1;
@@ -298,13 +299,12 @@ body {
   padding-bottom: 30px;
 }
 .advantages-icons-item {
-  width: 270px;
   height: 120px;
-  margin: 0 15px;
   background-color: var(--white-100-color);
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 .advantages-icons-link {
   width: 70px;
@@ -343,6 +343,7 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  fill: var(--icon-color);
 }
 .social-list-link:hover,
 .social-list-link:focus {
@@ -350,7 +351,7 @@ body {
 }
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
-  fill: #fff;
+  fill: var(--white-color);
 }
 .dream-blocks {
   list-style-type: none;
